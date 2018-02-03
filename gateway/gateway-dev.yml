@@ -1,10 +1,4 @@
 service:
   gateway:
     port: 9165
-
-spring:
-  cloud:
-    inetutils:
-      preferred-networks:
-        - *
-        
+    
