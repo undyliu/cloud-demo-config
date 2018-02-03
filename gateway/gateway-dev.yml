@@ -1,3 +1,10 @@
 service:
-  server:
-    port: 8515
+  gateway:
+    port: 9165
+
+spring:
+  cloud:
+    inetutils:
+      preferred-networks:
+        - *
+        
